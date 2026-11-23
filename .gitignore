@@ -1,0 +1,61 @@
+# UG2CareerPerformanceMenu — C++ / Visual Studio 2022
+# Apenas codigo-fonte e arquivos de configuracao/recursos no Git.
+
+# Visual Studio — estado local e cache
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.opendb
+*.VC.VC.opendb
+*.VC.db-shm
+*.VC.db-wal
+*.ipch
+ipch/
+
+# Diretorios de compilacao
+[Dd]ebug/
+[Rr]elease/
+[Bb]in/
+[Oo]bj/
+x64/
+x86/
+Win32/
+[Bb]uild/
+[Oo]ut/
+
+# Arquivos intermediarios do MSVC / MSBuild
+*.obj
+*.pch
+*.pdb
+*.idb
+*.ilk
+*.iobj
+*.ipch
+*.tlog
+*.lastbuildstate
+*.recipe
+*.opensdf
+*.sdf
+*.aps
+*.res
+*.exp
+
+# Binarios gerados: publique o ASI como anexo da GitHub Release
+*.asi
+
+# Logs, temporarios e backups
+*.log
+*.tmp
+*.temp
+*.bak
+*.old
+*~
+
+# Arquivos de distribuicao gerados localmente
+*.zip
+
+# NAO ignorar: *.ini, *.dds, *.sln, *.vcxproj, *.vcxproj.filters,
+# main.cpp, codigo-fonte e dependencias MinHook necessarias ao build.
