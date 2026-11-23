@@ -1,5 +1,5 @@
 # UG2CareerPerformanceMenu — C++ / Visual Studio 2022
-# Apenas codigo-fonte e arquivos de configuracao/recursos no Git.
+# Codigo-fonte e pasta Release com os arquivos de distribuicao no Git.
 
 # Visual Studio — estado local e cache
 .vs/
@@ -17,7 +17,6 @@ ipch/
 
 # Diretorios de compilacao
 [Dd]ebug/
-[Rr]elease/
 [Bb]in/
 [Oo]bj/
 x64/
@@ -43,8 +42,10 @@ Win32/
 *.res
 *.exp
 
-# Binarios gerados: publique o ASI como anexo da GitHub Release
+# Binarios .asi fora da pasta Release sao ignorados
 *.asi
+![Rr]elease/*.asi
+![Rr]elease/**/*.asi
 
 # Logs, temporarios e backups
 *.log
@@ -54,8 +55,12 @@ Win32/
 *.old
 *~
 
-# Arquivos de distribuicao gerados localmente
+# ZIPs fora da pasta Release sao ignorados
 *.zip
+![Rr]elease/*.zip
+![Rr]elease/**/*.zip
+
+# Release/ e mantida no Git: .asi, .ini, .dds e .zip.
 
 # NAO ignorar: *.ini, *.dds, *.sln, *.vcxproj, *.vcxproj.filters,
 # main.cpp, codigo-fonte e dependencias MinHook necessarias ao build.
